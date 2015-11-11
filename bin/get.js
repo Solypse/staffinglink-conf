@@ -11,6 +11,6 @@ var conf = require('..');
 
 var key = argv._[0] || "";
 
-value = conf[key];
+var value = conf[key];
 
 console.log(value);
